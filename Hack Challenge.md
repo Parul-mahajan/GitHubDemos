@@ -1,5 +1,5 @@
-##GitHub Copilot Enabled Hotel Review Analysis using Azure AI Language Services
-#Overview
+# GitHub Copilot Enabled Hotel Review Analysis using Azure AI Language Services
+##Overview
 In the era of digital transformation, online reviews have become a crucial part of the decision-making process for customers. For a travel agency, understanding these reviews can provide valuable insights into customer preferences, satisfaction levels, and areas for improvement.
 Your task is to develop a solution that can process and analyze hotel reviews submitted to the travel agency's website. The solution should be able to:
 •	Determine the language each review is written in.
