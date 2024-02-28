@@ -14,6 +14,13 @@ Steps
 4.	Use Azure AI Language Services: Use the Text Analytics API to analyze the reviews. The API provides methods for language detection, sentiment analysis, key phrase extraction, and named entity recognition. Again, leverage GitHub Copilot to help you write the code to call these APIs.
 5.	Display the Results: Finally, display the results in any preferred format. This could be a simple console output, a web page, or even a data visualization. Use GitHub Copilot to assist you in writing the code to display the results.
    
+
+
+## Example Input Output 
+
+**The hotel was conveniently located near the city center. The room was spacious and clean, and the staff was incredibly friendly and helpful. The rooftop restaurant had a great view of the city. However, the Wi-Fi connection was poor, and the breakfast options were limited. Overall, I had a pleasant stay and would recommend this hotel to others.**
+
+![alt text](image.png)
 Remember, the goal is to provide valuable insights to the travel agency. So think about how you can present the data in a way that is easy to understand and actionable. And don't forget to use GitHub Copilot to assist you in writing your code.
 Good luck! 😄🚀
 
