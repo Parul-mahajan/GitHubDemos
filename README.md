@@ -1,35 +1,24 @@
-# Copilot Demos for C#, .NET through Visual Studio IDE
+# GitHub Copilot Demos
 
-![Microsoft Visual Studio ODE](./images/icon-vs.jpg)
+This repository contains a collection of demos showcasing the capabilities of GitHub Copilot. The demos are divided into different categories based on the programming language and the IDE used.
 
-![.NET and C#](./images/dotnet.jpg)
+## Structure
 
-This contains a collection of demos for Copilot for **C#** and **.NET** through **Visual Studio IDE.** This is going to be useful for customers who are interested in using Copilot for C# and .NET and want to use Copilot to generate code through Visual Studio IDE.
+The repository is structured as follows:
 
-Note that Copilot extension for Visual Studio IDE is **only available for Windows**. If you are using Mac, you can use Copilot through VS Code.
+- `CopilotExtensionVS/`: Contains instructions on how to install the GitHub Copilot extension for Visual Studio IDE.
+- `Demos-C#/`: Contains demos for using GitHub Copilot with C# and .NET through Visual Studio IDE. It includes a getting started guide, a guide on Test Driven Development (TDD), and a hack challenge.
+- `Demos-Py/`: Contains a set of coding challenges to be solved using GitHub Copilot in Python.
+- `images/`: Contains images used in the various README files.
 
-> GitHub Copilot is only available for VS Code, Visual Studio IDE for Microsoft Windows, NeoVim, and IntelliJ and GitHub Copilot is not available for Jupyter Notebooks.
+## Getting Started
 
-## Prerequisites
+To get started with the demos, navigate to the respective directories. Each directory contains a README file with detailed instructions.
 
-All of demos here will require the following as minimum requirements. Some exercises might have more requirements. This assumes that you have a Windows environment.
+For C# and .NET demos, make sure you have Visual Studio IDE installed and the GitHub Copilot extension enabled. You can find instructions on how to do this in the [`CopilotExtensionVS/README.md`](CopilotExtensionVS/README.md) file.
 
-- [Visual Studio IDE](https://visualstudio.microsoft.com/downloads/) for Windows
-- [Copilot Extension for Visual Studio IDE](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot). 
-
-[See this documentation on how to install Copilot extension for Visual Studio IDE](./CopilotExtensionVS)
-
-## Demos
-
-You want to start with basic one then jump to other ones.
-
-1. [Getting Started](Demos/GettingStarted/README.md)
-2. [Test Driven Development (TDD) using C# and .NET through Visual Studio IDE](Demos/TDD-DotNet/README.md)
-
+For Python challenges, make sure you have a Python environment set up. You can use any code editor of your choice, but the demos are designed with VS Code in mind.
 
 ## Contribution
 
-If you want to contribute to this repo, please follow the [Contribution Guidelines](CONTRIBUTING.md).
-
-
-
+Contributions to this repository are welcome. Please follow the contribution guidelines provided in each directory.
