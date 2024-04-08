@@ -24,3 +24,6 @@ Write code to determine if a given year is a leap year or not.
 
 ### Task 5: List Manipulation
 Write a function that takes a list of integers as input and returns the sum of all the even numbers in the list.
+
+
+ALL THE BEST!
