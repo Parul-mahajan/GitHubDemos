@@ -1,7 +1,7 @@
 ## The Legendary Duel of Stonevale
 
 <a href="#">
-    <img src="../../Images/stonevale.jpg" style="width: 830px" />
+    <img src="images" style="width: 830px" />
 </a>
 
 ### Background
@@ -78,7 +78,7 @@ Your task is to simulate the duel between Rok and Papyra. Each warrior makes a s
 ### GitHub Copilot Tips
 
 <a href="#">
-    <img src="../../Images/copilot-tips.jpg"  style="width: 830px" />
+    <img src=".images"  style="width: 830px" />
 </a>
 
 #### Use Copilot to improve efficiency
@@ -92,6 +92,9 @@ See if you can use Copilot to find out the complexity (BigO notation) of the cod
 1. Ask Copilot Chat to make the code more efficient.
 
 1. Ask for the complexity again - is it better?
+
+
+
 
 #### Use Copilot to generate code comments
 
