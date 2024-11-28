@@ -1,0 +1,27 @@
+name: Create a New Branch
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-branch:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v3
+
+    - name: Set up Git
+      run: |
+        git config user.name "Parul-mahajan"
+        git config user.email "parulmahajan1212001@gmail.com"
+
+    - name: Create a new branch
+      run: |
+        BRANCH_NAME="new-branch-$(date +'%Y%m%d%H%M%S')"
+        git checkout -b $BRANCH_NAME
+        git push origin $BRANCH_NAME
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
